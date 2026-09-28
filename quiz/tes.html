@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form PemesananRingkas - Poliban DigiCraft</title>
+</head>
+
+<body>
+    <center>
+        <header>
+            <h3>Form Pemesanan Ringkas - Poliban DigiCraft &nbsp;&nbsp;&nbsp;&nbsp;<a href="../kontak.html">
+                    <font size="2">Kembali ke Beranda</font>
+                </a></h3>
+        </header>
+    </center>
+    <hr>
+    <table>
+        <tr>
+            <td width="20%"><img src="../Gambar/logo-poliban.png" alt="logo" width="100"></td>
+            <td><b>Image</b><br>
+                Deskripsi singkat tentang produk atau layanan yang ditawarkan oleh Poliban DigiCraft. Informasi tambahan
+                untuk pengguna.</td>
+        </tr>
+    </table>
+
+    <table border="1" cellspacing="0" width="100%">
+        <tr bgcolor="#8fdbef">
+            <th>Package Name</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Paket Basic</td>
+            <td>Rp. 50.000</td>
+        </tr>
+        <tr>
+            <td>Paket Standar</td>
+            <td>Rp. 100.000</td>
+        </tr>
+        <tr>
+            <td>Paket Premium</td>
+            <td>Rp. 150.000</td>
+        </tr>
+    </table>
+    <br>
+
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <td>
+                <form action="#">
+                    <h3>Formulir Pemesanan</h3>
+                    <table cellpadding="5">
+                        <tr>
+                            <td> <label for="nama">Nama Lengkap:</label></td>
+                            <td><input type="text" id="nama" name="nama" placeholder="Nama Lengkap" required size="23"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" id="email" name="email" placeholder="Email" required size="23"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="paket">Paket</label></td>
+                            <td><select name="paket" id="paket">
+                                    <option value="">Pilih Paket</option>
+                                    <option value="basic">Paket Basic (Rp 50.000)</option>
+                                    <option value="standar">Paket Standar (Rp 100.000)</option>
+                                    <option value="premium">Paket Premium (Rp 150.000)</option>
+                                </select></td>
+                        </tr>
+
+                    </table>
+                    <br>
+                    <button type="submint">Kirim Pesanan</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
